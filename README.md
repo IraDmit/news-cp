@@ -16,3 +16,11 @@ npm run dev
 npm run build
 ```
 
+### На проекте используется:
+* VUE3 (Composition Api)
+* Vite
+* Scss
+* Vue-Router
+* Axios
+
+
