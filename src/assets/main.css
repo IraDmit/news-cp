@@ -1,0 +1,44 @@
+@import './fonts.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: calc(100% - 350px);
+  margin-left: auto;
+  padding: 10px 20px;
+  background-color: #cfe0fa;
+  min-height: 100vh;
+}
+
+textarea,
+input:not([type="checkbox"]) {
+  width: 100%;
+  border-radius: 10px;
+  padding: 15px 20px;
+  background: #f5f4f9;
+  border: unset;
+  outline: none;
+  transition: 0.3s ease;
+  font-size: 16px;
+  border: 1px solid #f5f4f9;
+
+  &::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #949494;
+  }
+
+  &:focus {
+    border-color: #d9d9d9;
+    background-color: #fff;
+  }
+
+}
